@@ -1,0 +1,35 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  .title-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+    height: 30px;
+    background: #fff;
+  }
+
+  .title {
+    text-align: center;
+    padding: 5px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
